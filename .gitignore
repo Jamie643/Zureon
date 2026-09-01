@@ -1,0 +1,15 @@
+# Never upload API keys or passwords
+.env
+.env.local
+
+# Never upload temporary Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore local output files
+results.json
+output/
